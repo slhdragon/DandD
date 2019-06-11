@@ -1,0 +1,23 @@
+{
+  "name": "apollo-graphql-server-google-app-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.11.2",
+    "npm": "5.x"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.6.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "graphql-tools": "^4.0.4"
+  }
+}
